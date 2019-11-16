@@ -1,21 +1,19 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import Layout from '../components/Layout/Layout';
+import Blog from '../components/Blog';
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+let Index = () => {
+  return (
+    <Layout 
+      PageTitle='Augustine Igwe &#128640; - Technical Writer and Front End Developer'
+      PageLink='/'
+      PageDescription='Augustine is a front end developer, a technical writer and  aspiring speaker.'
+      PageKeywords='augustine igwe, developer, augustine, igwe, web developer, developer, frontend, web development, javascript'
+      TwitterCardTtitle='Augustine Igwe'
+    >
+      <Blog />
+    </Layout>
+  )
+}
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
-
-export default IndexPage
+export default Index;

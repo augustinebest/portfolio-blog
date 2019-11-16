@@ -1,0 +1,16 @@
+.Mainright {
+    width: 80%;
+    padding: 0 50px;
+    min-height: 100%;
+    margin-left: 20%;
+    border: 1px solid #f00;
+}
+
+@media (max-width: 900px) {
+    .Mainright {
+        width: 100%;
+        margin-top: 70px;
+        padding: 0 10px;
+        margin-left: 0;
+    }
+}

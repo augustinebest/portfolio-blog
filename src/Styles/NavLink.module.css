@@ -1,0 +1,9 @@
+.Link {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: var(--mainColor3);
+    display: block;
+    margin: 7px 0;
+}
